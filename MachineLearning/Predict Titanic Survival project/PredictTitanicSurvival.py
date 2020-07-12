@@ -13,8 +13,8 @@ print(passengers)
 passengers["Sex"] = passengers["Sex"].map({"female": 1, "male": 0})
 
 # Fill the nan values in the age column
-meanAge = passengers["Age"].mean()
-passengers["Age"].fillna(value = meanAge, inplace = True)
+mean_age = passengers["Age"].mean()
+passengers["Age"].fillna(value=mean_age, inplace=True)
 
 # Create a first class column
 passengers["FirstClass"] = np.where(passengers["Pclass"] == 1, 1, 0)
@@ -27,7 +27,7 @@ features = passengers[["Sex", "Age", "FirstClass", "SecondClass"]]
 survival = passengers["Survived"]
 
 # Perform train, test, split
-x_train, x_test, y_train, y_test = train_test_split(features, survival, test_size = 0.2)
+x_train, x_test, y_train, y_test = train_test_split(features, survival, test_size=0.2)
 
 # Scale the feature data so it has mean = 0 and standard deviation = 1
 scaler = StandardScaler()
@@ -45,12 +45,12 @@ print(model.score(x_train, y_train))
 print(model.score(x_test, y_test))
 
 # Analyze the coefficients
-print(dict(zip(['Sex','Age','FirstClass','SecondClass'], model.coef_[0])))
+print(dict(zip(['Sex', 'Age', 'FirstClass', 'SecondClass'], model.coef_[0])))
 
 # Sample passenger features
-Jack = np.array([0.0,20.0,0.0,0.0])
-Rose = np.array([1.0,17.0,1.0,0.0])
-Me = np.array([0.0,18.0,0.0,1.0])
+Jack = np.array([0.0, 20.0, 0.0, 0.0])
+Rose = np.array([1.0, 17.0, 1.0, 0.0])
+Me = np.array([0.0, 18.0, 0.0, 1.0])
 
 # Combine passenger arrays
 sample_passengers = np.array([Jack, Rose, Me])

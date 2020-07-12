@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import linear_model
 
-df = pd.read_csv("https://s3.amazonaws.com/codecademy-content/programs/data-science-path/linear_regression/honeyproduction.csv")
+df = pd.read_csv("https://s3.amazonaws.com/codecademy-content/programs/data-science-path/linear_regression"
+                 "/honeyproduction.csv")
 # print(df.head())
 
 prod_per_year = df.groupby("year").totalprod.mean().reset_index()
@@ -37,4 +38,3 @@ X_future = X_future.reshape(-1, 1)
 future_predict = regr.predict(X_future)
 plt.plot(X_future, future_predict)
 plt.show()
-
