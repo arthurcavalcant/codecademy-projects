@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc1b5c9-8c9b-4f04-8cbc-176c2ef39f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codecademy-projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codecademy-projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/Breast Cancer Classifier project/breast_cancer_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/Breast Cancer Classifier project/breast_cancer_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/Email Similarity Project/email_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/Email Similarity Project/email_similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/Honey Production project/honey_production.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/Honey Production project/honey_production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/Predict Titanic Survival project/PredictTitanicSurvival.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/Predict Titanic Survival project/PredictTitanicSurvival.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/Predicting Income with Random Forests Project/predicting_income.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/Predicting Income with Random Forests Project/predicting_income.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +57,7 @@
       <updated>1594501563243</updated>
       <workItem from="1594501570317" duration="2590000" />
       <workItem from="1594519494533" duration="656000" />
-      <workItem from="1594566949347" duration="629000" />
+      <workItem from="1594566949347" duration="1228000" />
     </task>
     <servers />
   </component>
